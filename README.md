@@ -1,2 +1,2 @@
-# Medical-App
-Medical App - SQL LITE
+# Medical App
+Medical App with SQLITE
