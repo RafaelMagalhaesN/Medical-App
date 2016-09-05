@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite">
+
+        <!-- Start Top - Cabeçalho -->
+        <LinearLayout
+            android:id="@+id/clogo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/medical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cnome"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/clogo"
+            android:gravity="center"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newUsers" />
+        </LinearLayout>
+        <!--End Top - Fim cabeçalho-->
+
+
+
+        <!--Login Form - Formulario de login -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cnome"
+            android:orientation="vertical"
+            android:padding="10dip"
+            android:id="@+id/linearLayout">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/username" />
+
+            <EditText
+                android:id="@+id/etUsername"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dip"
+                android:layout_marginTop="5dip"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/password" />
+
+            <EditText
+                android:id="@+id/etSenha"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="15dip"
+                android:password="true"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/you"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dip">
+                <RadioButton
+                    android:id="@+id/iamDoctor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iamDoctor"
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:id="@+id/iamConferenceAdmin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iamConferenceAdmin"
+                    />
+            </RadioGroup>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:onClick="onCreateUser"
+                android:text="@string/createUser"
+                android:id="@+id/onCreateUser"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:id="@+id/onCancel"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dip"
+                android:onClick="onCancel"
+                android:text="@string/cancel" />
+        </LinearLayout>
+
+        <!--End Login Form - Fim Fomulario Login-->
+
+    </RelativeLayout>
+</ScrollView>

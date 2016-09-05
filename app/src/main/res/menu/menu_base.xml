@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Conferences">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/all_conferences" android:icon="@android:drawable/ic_dialog_map"
+                    android:title="All conferences"/>
+                <item android:id="@+id/my_conferences" android:icon="@android:drawable/ic_dialog_info"
+                    android:title="My invitations"/>
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Conference Options" android:id="@+id/conferenceAdminPanel" android:visible="false">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/create_conference" android:icon="@android:drawable/ic_input_add"
+                    android:title="Create new conference"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Logout" android:visible="true">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/logout" android:icon="@android:drawable/ic_dialog_alert"
+                    android:title="Logout"/>
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Conference Options" android:id="@+id/conferenceAdmin" android:visible="false">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item android:id="@+id/edit_conference" android:icon="@android:drawable/ic_menu_edit"
+                    android:title="Edit conference"/>
+                <item android:id="@+id/cancel_conference" android:icon="@android:drawable/ic_input_delete"
+                    android:title="Delete conference"/>
+                <item android:id="@+id/invite_conference" android:icon="@android:drawable/ic_dialog_email"
+                    android:title="Invite doctor"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Conference Options" android:id="@+id/conferenceDoctor" android:visible="false">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item android:id="@+id/suggest_topic" android:icon="@android:drawable/ic_input_add"
+                    android:title="Suggest topic"/>
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

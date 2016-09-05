@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">MedicalSchedule</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="MedicalCrossOver">Medical Conference Schedule</string>
+    <string name="newUsers">New User? Register here</string>
+    <string name="username">Username</string>
+    <string name="you">You are?</string>
+    <string name="cancel">Cancel</string>
+    <string name="createUser">Register</string>
+    <string name="iamDoctor">Doctor</string>
+    <string name="iamConferenceAdmin">Conference admin</string>
+
+    <string name="date">Date: 00/00/0000</string>
+    <string name="hour">Hour: 14:00</string>
+    <string name="autor">Autor: Rafael Magalhães</string>
+    <string name="city">City: Santos, BRAZIL</string>
+    <string name="title">BRAZILIAN SOCIETY OF DERMATOLOGY 71ST CONGRESS 2016</string>
+    <string name="topics">Topics</string>
+    <string name="topics_text">No new</string>
+
+    <string name="new_conference">Create new conference</string>
+    <string name="view_my_invites">View my invitations</string>
+
+    <string name="nav_drawer_opened">drawer opened</string>
+    <string name="nav_drawer_closed">drawer closed</string>
+
+    <string name="medical_conference">Medical Conference</string>
+
+
+    <string name="createNewConference">Create new conference</string>
+    <string name="titleof">Title: </string>
+    <string name="dateof">Date: </string>
+    <string name="hourof">Hour: </string>
+    <string name="addressof">Address: </string>
+    <string name="topicsof">Topics: </string>
+    <string name="dateFormatter">mm/dd/yyyy</string>
+    <string name="hourFormatter">hh:mm</string>
+    <string name="addressFormatter">City name, State name</string>
+    <string name="topicFormatter">Topic one, Topic two</string>
+
+    <string name="suggests">Suggestions topics</string>
+
+
+    <string name="update">Update conference</string>
+
+
+</resources>
