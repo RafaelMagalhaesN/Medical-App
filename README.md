@@ -1,4 +1,9 @@
-*********PRE-REQUSITES*********
+#Medical Schedule aplication for Android 
+---
+This app uses: SQLite, CardView, RecyclerView, Mockito and Junit.
+
+********************************
+****PRE-REQUSITES****
 *- Android Studio (preference 2.1 or above) with gradle 2.10
 *- Minimum requirements to run Android Studio
 *- Emulator(memu, genimotion or others) or device with Android Jelly Bean or above to run aplication
