@@ -30,7 +30,6 @@ This app uses: SQLite, CardView, RecyclerView, Mockito and Junit.
 ---To run app: connect your device on PC and press "►" in Android Studio
 *********************************************
 
-
 ****TO IMPROVING****
 *INSERT REQUISITES:
 *- Doctors access can delete his comments on conference events
